@@ -39,10 +39,10 @@ const obj ={
                 
              <input type="text" placeholder="Enter first name" data-testid="input1" name="name1"  value={name1} onChange={(e)=> (setName1(e.target.value),setflag(false))}></input>
              <input type="text" placeholder="Enter second name" data-testid="input2" name="name2" value={name2}  onChange={(e)=>(setName2(e.target.value),setflag(false))}></input>
-             <button data-testid="calculate-relationship" name="calculate-relationship" type="button" onClick={handleRelation}>Calculate Relationship Future</button>
+             <button data-testid="calculate_relationship" name="calculate_relationship" type="button" onClick={handleRelation}>Calculate Relationship Future</button>
              <button type="button" data-testid="clear" name="clear" onClick={handleClear}>Clear</button>
              
-             {flag ? ((name1.length===0 || name2.length===0)?(<h3 data-testid="answer">Please Enter valid input</h3>):(<h3 data-testid="answer">{relation}</h3>)):(<h3></h3>)}
+             {flag ? ((name1.length===0 || name2.length===0)?(<h3 data-testid="answer">Please Enter valid input</h3>):(<h3 data-testid="answer">{relation}</h3>)):(<h3 data-testid="answer"></h3>)}
             </div>
         )
     
