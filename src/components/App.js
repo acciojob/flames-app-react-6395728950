@@ -5,7 +5,7 @@ const obj ={
     1:"Friends",
     2:"Love",
     3:"Affection",
-    4:"Marrige",
+    4:"Marriage",
     5:"Enemy",
     0:"Siblings",
 
